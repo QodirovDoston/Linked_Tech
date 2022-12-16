@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav{
+    padding-top: 40px;
+}
+
+.list{
+    display: flex;
+}
+
+
+.list_item{
+    padding-left: 20px;
+}
+
+.icons{
+    padding-left: 20px;
+}
+
+
+.big-button-text{
+    display: flex;
+}
+
+
+.section{
+    padding-top: 90px;
+}
+
+
+.favorite{
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #C72535;
+}
+
+
+span{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    color: #247CC0;
+}
+
+.bold-text{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+}
+
+.text-inf{    
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #030D15;
+    opacity: 0.6;
+}
+
+.btn-class{
+    margin-top: 20px;
+    padding: 16px 35px;
+    border: none;
+    background: #247CC0;
+    color: #fff;
+}
+
+
+.price{
+    margin-top: 35px;
+    padding-left: 30px;
+}
+
+.light-price{
+    margin-top: 35px;
+    padding-left: 30px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #030D15;
+    opacity: 0.5;
+}
+
+
+.radio{
+    width: 100%;
+}
+
+
+
+@media (max-width: 575px) {
+    .favorite {
+        font-family: 'Hind Siliguri';
+        font-weight: 500;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #C72535;
+    }
+    span {
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        color: #247CC0;
+    }
+    .bold-text {
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .text-inf {
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        color: #030D15;
+        opacity: 0.6;
+    }
+
+    .section {
+        padding-top: 50px;
+    }
+    .btn-class {
+        margin-top: 12px;
+        padding: 7px 22px;
+        border: none;
+        background: #247CC0;
+        color: #fff;
+        font-size: 9px;
+    }
+    .big-button-text {
+        display: flex;
+        justify-content: center;
+    }
+    .radio{
+        padding-top: 30px;
+    }
+}
